@@ -6,7 +6,7 @@ const video = document.getElementById('video');
         const context = canvas.getContext('2d');
         const displayPanel = document.getElementById("text-display-panel");
 
-        let currentFacingMode = "user";  // Start with back camera
+        let currentFacingMode = "environment";  // Start with back camera
         let stream;
 
         async function startVideo(facingMode) {
