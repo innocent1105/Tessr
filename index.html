@@ -3,59 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webcam OCR with Tesseract.js</title>
-  <style>
-    body{
-      padding: 0px;
-      margin: 0px;
-      background-color: #111012;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    video , canvas{
-      width: 100vw;
-      height: auto;
-      /* border-style: solid; */
-    }
-    .backdrop{
-      position: absolute;
-      width: 80%;
-      height: 190px;
-      margin: 0%;
-      border-style: solid;
-      border-width: 40px;
-      opacity: 0.5;
-    }
-    .capture{
-      width: 100%;
-      height: auto;
-      padding: 15px;
-      background-color: #6b15d8;
-      color: #fff;
-      border-style: hidden;
-    }
-    .text-display-panel{
-      width: 100%;
-      height: 0%;
-      /* border-style: solid; */
-      position: fixed;
-      background-color: #1a1a1d;
-      bottom: 0px;
-      border-top-left-radius: 35px;
-      border-top-right-radius: 35px;
-    }
-    .text, .header{
-      color: #fff;
-      width: auto;
-      height: auto;
-      margin: 25px;
-    }
-    .text{
-      border-top-style: solid;
-      border-color: #2b2b31;
-      padding-top: 25px;
-      color: #dadaed;
-    }
-  </style>
+  <title>Tessr js</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="backdrop"></div>
@@ -73,8 +22,7 @@
 
 
 
-
-  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.4/dist/tesseract.min.js"></script>
+  <script src="./javascript//tesser_model/tesser.js"></script>
   <script src="./javascript/app.js"></script>
 </body>
 </html>
