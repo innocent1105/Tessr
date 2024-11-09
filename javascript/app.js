@@ -8,7 +8,7 @@
         const loader = document.getElementById("loader");
         const loaderText = document.getElementById("loader-text");
 
-        let currentFacingMode = "user";  // Start with back camera
+        let currentFacingMode = "environment";  // Start with back camera
         let stream;
 
         async function startVideo(facingMode) {
