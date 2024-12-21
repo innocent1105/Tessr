@@ -8,36 +8,29 @@
 </head>
 <body>
 
-  <div class="loader" id="loader">
-    <center>
-      <div class="loading-text" id="loader-text">Loading...</div>
-      <div class="loader2"></div>
-    </center>
-</div>
-
-<center>
-  <button id="capture-btn" class="capture"></button>
-</center>
-
+  <!-- <div class="loader" id="loader">
+    <div class="loading-text">Loading...</div>
+  </div> -->
+  
   <div class="backdrop"></div>
   <video id="video" autoplay></video>
   <canvas id="canvas" style="display: none;">
   </canvas>
   
+  <button id="capture-btn" class="capture">Capture Text</button>
 
 
   <div class="text-display-panel" id="text-display-panel">
     <div class="header">Recognized text</div>
     <div id="ocr-result" class="text"></div>
-
-    <div class="copy-btn" id="copy-btn">
-      copy text
-    </div>
   </div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@latest/dist/tesseract.min.js"></script>
-  <script src="./javascript//tesser_model/tesser.js"></script>
+ 
+
+  <!-- <script src="./javascript//tesser_model/tesser.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.4/dist/tesseract.min.js"></script>
+  
   <script src="./javascript/app.js"></script>
 </body>
 </html>
