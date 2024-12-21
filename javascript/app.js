@@ -11,7 +11,7 @@
 
         let text = "No text yet";
 
-        let currentFacingMode = "user";  // Start with back camera
+        let currentFacingMode = "environment";  // Start with back camera
         let stream;
 
         async function startVideo(facingMode) {
